@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Sript that stops the 4-to_infinity_and_beyond process.
+# Cannot use k'kill' or 'killall'
+pkill -f 4-to_infinity_and_beyond
