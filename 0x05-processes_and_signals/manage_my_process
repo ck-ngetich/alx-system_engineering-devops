@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Creates a new process instead of saying tje process has already started
+
+while true
+
+do
+
+  echo "I am alive!" >> /tmp/my_process
+
+  sleep 2
+
+done
