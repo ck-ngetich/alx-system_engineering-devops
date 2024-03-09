@@ -23,6 +23,7 @@ int infi_while(void)
  */
 int main(void)
 {
+{
 	pid_t pid;
 	char count = 0;
 
@@ -39,6 +40,8 @@ int main(void)
 			exit(0);
 	}
 
-	infinite_while();
+	infi_while();
+}
 
 	return (EXIT_SUCCESS);
+	}
